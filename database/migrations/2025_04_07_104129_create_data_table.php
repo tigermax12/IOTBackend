@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->timestamp('timestamp');
             $table->string('topic');
-            $table->double('value');
+            $table->string('value');
             $table->timestamps();
         });
     }
